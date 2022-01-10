@@ -35,28 +35,17 @@
 }
 
 html, body {
-    width: 100%;
     height: 100%;
 }
 
 body {
     font-family: 'GmarketSansMedium';
     background-color: #5b2386;
-    color: white;
+    color: #ffffff;
 }
 
 /* 메인 콘텐츠 */
-#contents {
-    /* flex = 모든 요소 같은 간격 배치 */
-    display: flex;
-    justify-content: center;
-}
-
 .wrapper{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
     margin-top: 50px;
 }
 
@@ -82,7 +71,6 @@ body {
 
 .title_img img {
     width: 100%;
-    height: auto;
 }
 
 /* 1만 시간의 법칙 설명 */
@@ -94,7 +82,8 @@ body {
 }
 
 .intro .intro_saying {
-    font-family: 'OTEnjoystoriesBA' ;
+    font-family: 'OTEnjoystoriesBA' ; 
+/*     폰트는 이미지 대비 용량이 상당히 크므로 지엽적으로 쓰일 시, 이미지로 대체할 것 */
     font-size: 36px;
     color: #f5df4d;
     margin-bottom: 50px;
@@ -158,8 +147,6 @@ body {
 
 /* 버튼 공통 스타일 */
 button {
-    display: flex;
-    align-items: center;
     font-family: 'GmarketSansBold';
     font-size: 20px;
     color: #5b2386;
@@ -239,7 +226,7 @@ button {
 }
 
 .buttons .share_btn {
-    background-color: white;
+    background-color: #ffffff;
     margin-left: 20px;
     padding-top: 15px;
     height: 50px;
